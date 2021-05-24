@@ -1,4 +1,21 @@
 ---
 label: Products
 hide_body: true
-fields: []
+fields:
+- name: basic_
+  type: field_group_list
+  fields:
+  - name: dasdasd
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: dasdasd
+    description: asdasdasd
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: 'basic '
+  description: some thing only
